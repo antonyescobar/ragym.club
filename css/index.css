@@ -351,3 +351,303 @@ fill: none;
 
 /*------------------------- RESULTADOS REALES --------------------------*/
 
+.resultados-reales {
+    background-color: #000;
+    padding: 80px 20px;
+    color: white;
+    text-align: center;
+}
+
+.resultados-reales-contenedor-borde {
+    background: linear-gradient(rgb(26, 26, 26) 0%, rgba(255, 255, 255, 0) 100%);
+    max-width: 1100px;
+    margin: 0 auto;
+    border: 1px solid #333;
+    border-radius: 20px;
+    padding: 60px 40px;
+}
+
+.resultados-reales-titulo h2 {
+    font-size: 40px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+.resultados-reales-subtitulo {
+    color: #999;
+    font-size: 18px;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+
+.resultados-reales-info {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.resultados-reales-icono {
+    flex: 1;
+    min-width: 200px;
+}
+
+.icon-orange {
+    color: #f17e13;
+    width: 40px;
+    height: 40px;
+    margin-bottom: 5px;
+}
+
+.resultados-reales-numero {
+    font-size: 35px;
+    font-weight: 700;
+    margin: 5px 0;
+}
+
+.resultados-reales-parrafo {
+    color: #888;
+    font-size: 14px;
+    margin: 0;
+}
+
+/*------------------------- ASESORÍA GRATIS --------------------------*/
+
+.asesoria-gratis {
+    background-color: #000;
+    padding: 80px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-asesoria {
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    gap: 60px;
+    align-items: center;
+}
+
+.imagen-asesoria {
+    flex: 1;
+}
+
+.imagen-asesoria img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    display: block;
+}
+
+.contenido-asesoria {
+    flex: 1;
+    text-align: left;
+}
+
+.etiqueta-nosotros {
+    display: inline-block;
+    color: #FF5E00;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #1a1a1a;
+    padding: 6px 16px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.contenido-asesoria h1 {
+    font-size: 54px;
+    font-weight: 800;
+    line-height: 1.1;
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 25px;
+}
+
+.contenido-asesoria p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #A0A0A0;
+    margin-bottom: 30px;
+}
+
+.boton-asesoria {
+    background-color: #FF5E00; 
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.boton-asesoria:hover {
+    background-color: #e65400;
+}
+
+
+/*------------------------------ FOOTER --------------------------------*/
+
+.pie-pagina {
+    background-color: #0a0a0a;
+    color: white;
+    padding: 60px 20px 30px;
+    position: relative;
+}
+
+.contenedor-pie {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.columna-pie {
+    flex: 1;
+    min-width: 200px;
+}
+
+.logo-footer {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.logo-footer span {
+    color: #ff5e00;
+}
+
+.info-marca p {
+    color: #888;
+    line-height: 1.6;
+    font-size: 18px;
+    max-width: 200px;
+}
+
+.columna-pie h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    letter-spacing: 1px;
+}
+
+.columna-pie ul {
+    list-style: none;
+    padding: 0;
+}
+
+.columna-pie ul li a {
+    color: #888;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.columna-pie ul li a:hover {
+    color: white;
+}
+
+.iconos-redes {
+    display: flex;
+    gap: 15px;
+}
+
+.cuadro-red {
+    width: 45px;
+    height: 45px;
+    background-color: #1a1a1a;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.3s;
+    text-decoration: none;
+}
+
+.cuadro-red:hover {
+    background-color: #333;
+}
+
+.linea-footer {
+    border: 0;
+    border-top: 1px solid #1a1a1a;
+    margin: 50px 0 30px;
+}
+
+.copyright {
+    text-align: center;
+    color: #555;
+    font-size: 0.85rem;
+}
+
+.btn-whatsapp-flotante {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: #25d366;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 15px rgba(37, 211, 102, 0.3);
+    z-index: 1000;
+    transition: transform 0.3s;
+}
+
+.btn-whatsapp-flotante:hover {
+    transform: scale(1.1);
+}
+
+/*------------------------------ RESPONSIVE ------------------------------*/
+
+@media (max-width: 900px) {
+    .contenedor-asesoria {
+        flex-direction: column; 
+        gap: 40px;
+        text-align: center;
+    }
+
+    .imagen-asesoria, .contenido-asesoria {
+        width: 100%;
+        text-align: center;
+    }
+
+    .imagen-asesoria img {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    .contenido-asesoria h1 {
+        font-size: 36px;
+    }
+
+    .contenido-asesoria {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .contenedor-pie {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .info-marca p {
+        margin: 0 auto;
+    }
+    
+    .iconos-redes {
+        justify-content: center;
+    }
+}
